@@ -1,0 +1,53 @@
+body {
+    background-color: #a1ffa1;
+    color: rgb(0, 0, 0);
+    overflow-x: hidden
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none;
+    outline-width: 0
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+    background-color: #c2e1ff;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px
+}
+
+.left-side {
+    height: 100%
+}
+
+.btn-pink {
+    background: #FF5252;
+    font-size: 16px;
+    color: rgb(177, 40, 40);
+    width: 150px;
+    height: 40px;
+    border: 1px solid #FF5252;
+    text-transform: uppercase;
+    margin-top: 20px
+}
+
+.btn-pink:hover {
+    background: #F44336;
+    color: rgb(0, 0, 0)
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.boy-img {
+    height: 300px;
+    width: 500px
+}
